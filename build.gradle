@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+group 'artem'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.openjfx:javafx-base:11:win'
+    compile 'org.openjfx:javafx-controls:11:win'
+    compile 'org.openjfx:javafx-graphics:11:win'
+    compile 'org.openjfx:javafx-fxml:11:win'
+}
